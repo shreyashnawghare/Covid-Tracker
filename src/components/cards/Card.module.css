@@ -1,0 +1,17 @@
+.card {
+  margin: 0 2% !important;
+}
+@media only screen and (max-width: 770px) and (min-width: 580px) {
+  .card {
+    flex-basis: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .card {
+    max-width: 100% !important;
+  }
+  .card {
+    margin: 2% !important;
+  }
+}
